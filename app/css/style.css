@@ -47,13 +47,17 @@ html, body{
   }
 
 input,
- select
+select,
+button
  {
   background-color:#292f3a ;
   color: #fff;
   border-radius: 5px;
   height: 35px;
   border: none;
+ }
+ button i{
+  font-size: 1rem;
  }
  .settings-cycle select{
   padding: 0 1rem;
@@ -65,14 +69,15 @@ input,
  .settings-cycle input[type="text"]::placeholder{
   color: #ffffffc0;
  }
-input[type="submit"]{
+input[type="submit"], button{
   padding: 0 2rem;
   background-color: #1f5eff;
   cursor: pointer;
   transition: .3s;
   opacity: .9;
 }
-input[type="submit"]:hover{
+input[type="submit"]:hover
+,button:hover{
    opacity: 1;
  }
 
@@ -85,6 +90,7 @@ input[type="submit"]:hover{
   height: auto;
   border-radius: 5px;
   padding: .5rem;
+  min-height: 100px;
 }
 
 .list-matter-added ul{
@@ -121,3 +127,61 @@ input[type="submit"]:hover{
   justify-content: space-between;
   padding-top: 1rem;
 }
+
+.daily-time select{
+  padding: 0 1rem;
+  cursor: pointer;
+}
+
+/* list matter */
+
+.list-matter{
+  padding:1rem;
+}
+.list-matter .matter{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border-top: 1px solid #323741;
+  padding: .5rem 0;
+}
+.matter .name{
+  font-size: 18px;
+  font-weight: bold;
+}
+.matter .cheklists{
+  display: flex;
+  gap: 10px;
+}
+
+.cheklists input[type="checkbox"] {
+  display: none;
+}
+
+.cheklists form{
+  position: relative;
+}
+.cheklists label {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.cheklists label::before {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  border: 2px solid #1f5eff; 
+  border-radius: 50%; 
+  margin-right: .5rem;
+}
+
+.cheklists input[type="checkbox"]:checked + label::before {
+  background-color: #1f5eff; 
+}
+.cheklists input[type="checkbox"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
