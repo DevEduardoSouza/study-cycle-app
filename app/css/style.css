@@ -1,0 +1,123 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* background-color: #eceff1; */
+
+html, body{
+  width: 100%;
+  transition: .3s;
+  background-color: #263238;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+}
+
+#container-cycle{
+  max-width: 600px;
+  background-color: #22242a;
+  border-radius: 10px;
+  margin: 0 auto ;
+  margin-top: 2rem;
+  padding: 1rem;
+ }
+
+ #container-cycle h1{
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 10px 0;
+ }
+
+ .settings-cycle{
+  border-top: 2px solid #323741;
+ }
+ .settings-cycle form{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+ }
+ input{
+   border: none;
+   
+  }
+ input:focus{
+    border-color: #1f5eff ; 
+  }
+
+input,
+ select
+ {
+  background-color:#292f3a ;
+  color: #fff;
+  border-radius: 5px;
+  height: 35px;
+  border: none;
+ }
+ .settings-cycle select{
+  padding: 0 1rem;
+  cursor: pointer;
+ }
+ .settings-cycle input[type="text"]{
+  padding-left: 5px;
+ }
+ .settings-cycle input[type="text"]::placeholder{
+  color: #ffffffc0;
+ }
+input[type="submit"]{
+  padding: 0 2rem;
+  background-color: #1f5eff;
+  cursor: pointer;
+  transition: .3s;
+  opacity: .9;
+}
+input[type="submit"]:hover{
+   opacity: 1;
+ }
+
+ /* List matter Added  */
+
+
+.list-matter-added{
+  background-color: #292f3a;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  padding: .5rem;
+}
+
+.list-matter-added ul{
+  padding: .5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.list-matter-added ul li{
+  list-style: none;
+  background-color: #3b4049;
+  display: inline-block;
+  padding: .2rem .5rem;
+  border-radius: 10px;
+}
+.list-matter-added ul li i{
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  transition: .3s;
+}
+
+.list-matter-added ul li i:hover{
+  background-color: #323741;
+}
+
+/* Generate cycle */
+.daily-time{
+  border-top: 2px solid #323741;
+  margin: 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
