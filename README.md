@@ -1,5 +1,5 @@
 # Calculadora de Ciclo de Estudo
--  (EM DESEMVOLVIMENTO v- 1.0.1)
+-  (EM DESENVOLVIMENTO v- 1.0.1)
 
 Bem-vindo à Calculadora de Ciclo de Estudo! Esta é uma aplicação em desenvolvimento criada para aprimorar habilidades em lógica de programação e front-end. O objetivo da aplicação é ajudar os usuários a planejar seus estudos, calculando o ciclo de estudo para cada matéria.
 
