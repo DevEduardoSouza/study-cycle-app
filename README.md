@@ -3,6 +3,9 @@
 
 Bem-vindo à Calculadora de Ciclo de Estudo! Esta é uma aplicação em desenvolvimento criada para aprimorar habilidades em lógica de programação e front-end. O objetivo da aplicação é ajudar os usuários a planejar seus estudos, calculando o ciclo de estudo para cada matéria.
 
+![Imagem](imgs/study-cycle-app-netlify-app.png)
+<a href="https://study-cycle-app.netlify.app">Link do site</a>
+
 ## Funcionalidades em Destaque
 
 - **Calculadora de Ciclo:** Permite aos usuários inserir informações sobre as matérias que estão estudando, como quantidade de horas disponíveis por dia e número de dias de estudo por semana. Com base nesses dados, a aplicação calcula o ciclo de estudo recomendado para cada matéria.
